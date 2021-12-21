@@ -2,17 +2,17 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-Animations/
-Cave_Background/
-Enemy/
-Forest_Background/
-Main_Character/
-NPC/
-Objects/
-Seperate graphic parts/
-Tileset/
-Tileset_1/
-Tileset_2/
+Animations/*
+Cave_Background/*
+Enemy/*
+Forest_Background/*
+Main_Character/*
+NPC/*
+Objects/*
+Seperate graphic parts/*
+Tileset/*
+Tileset_1/*
+Tileset_2/*
 
 /[Ll]ibrary/
 /[Tt]emp/
