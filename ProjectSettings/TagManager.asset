@@ -41,12 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Sky
     uniqueID: 4049068137
     locked: 0
-  - name: Rock
+  - name: Mountain
+    uniqueID: 3916492597
+    locked: 0
+  - name: Background Trees
     uniqueID: 3571683401
+    locked: 0
+  - name: Tree
+    uniqueID: 1726841743
+    locked: 0
+  - name: Front Trees
+    uniqueID: 3934460673
     locked: 0
   - name: Platforms
     uniqueID: 292007943
+    locked: 0
+  - name: Player
+    uniqueID: 2221816875
     locked: 0
