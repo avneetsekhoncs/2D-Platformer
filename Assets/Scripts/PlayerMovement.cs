@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] float zeroSpeed = 0f;
+    [SerializeField] GameObject arrow;
+    [SerializeField] Transform readyArrow;
 
     Vector2 moveInput;
     Rigidbody2D myRigidBody;
@@ -42,6 +44,18 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    void OnFire(InputValue value)
+    {
+        if(!isAlive)
+        {
+            return;
+        }
+
+        Instantiate(arrow, readyArrow.position, transform.rotation);
+    }
+    
+    
+    
     void OnMove(InputValue value)
     {
         if (!isAlive)
